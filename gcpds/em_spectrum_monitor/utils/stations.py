@@ -3,7 +3,7 @@ from typing import List, Tuple
 
 # ----------------------------------------------------------------------
 def stations(gps_position: Tuple[int, int, int], n: int = 10) -> List[Dict[str, str]]:
-    """sReturns a list of dictionaries containing information about the n closest stations to the given GPS position.
+    """Returns a list of dictionaries containing information about the n closest stations to the given GPS position.
 
     Parameters
     ----------
